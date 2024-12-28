@@ -1,12 +1,10 @@
 /**
  * @name calamity
- * @description A dark, rounded discord theme.
- * @author .yuhki
+ * @description A dark, rounded discord theme based on the midnight-discord theme.
+ * @author .yuhki, refact0r
  * @version 1.0.0
- * @invite vgrYEeZr2G
  * @website https://www.calamity.wtf
- * @authorId 534810356455964703
- * @authorLink https://www.calamity.wtf
+ * @authorId 534810356455964703, 508863359777505290
 */
 
 @import url('https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap');
@@ -780,7 +778,7 @@ button.button_dd4f85 /* small buttons */,
 }
 /* custom dm button background instead of icon */
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url(assets/calamity.png);
+	background: url("https://i.ibb.co/KDPdb0W/calamity.png");
 	background-color: transparent !important;
 	background-size: cover;
 }
