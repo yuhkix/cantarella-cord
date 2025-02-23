@@ -1,0 +1,111 @@
+/**
+ * @name Cantarella Dark
+ * @description A theme based on 'Cantarella' from WuWa and the midnight-discord theme.
+ * @author .yuhkix, refact0r
+ * @version 1.0.0
+ * @authorId 1323606732529991720
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/flavors/midnight-amaryllis.theme.css
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap');
+
+/* customize things here */
+:root {
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'Chillax';
+
+	/* top left corner text */
+	--corner-text: 'Cantarella';
+
+	/* color of status indicators and window controls */
+	--online-indicator: #caa6f7; /* change to #23a55a for default green */
+	--dnd-indicator: #ff6c6c; /* change to #f23f43 for default red */
+  --idle-indicator: #ffc671; /* change to #f0b232 for default yellow */
+  --streaming-indicator: #896cff; /* change to #593695 for default purple */
+
+	/* accent colors */
+	--accent-1: rgb(202, 166, 247); /* links */
+  --accent-2: rgba(202, 166, 247, 0.851); /* general unread/mention elements (slightly faded) */
+  --accent-3: rgba(202, 166, 247, 0.749); /* accent buttons (more faded) */
+  --accent-4: rgba(202, 166, 247, 0.6); /* accent buttons when hovered (darker but still recognizable) */
+  --accent-5: rgba(202, 166, 247, 0.45); /* accent buttons when clicked (dimmed) */
+  --mention: #4747471a; /* mentions & mention messages */
+  --mention-hover: #4f4f4f0d; /* mentions & mention messages when hovered */
+
+	/* text colors */
+  --text-0: #111111; /* text on colored elements */
+  --text-1: #eceff4; /* other normally white text */
+  --text-2: #e5e9f0; /* headings and important text */
+  --text-3: #eceff4; /* normal text */
+  --text-4: #8c8c8c; /* icon buttons and channels */
+  --text-5: #a4a4a4; /* muted channels/chats and timestamps */
+
+	/* background and dark colors */
+  --bg-1: #232323; /* dark buttons when clicked */
+  --bg-2: #1d1c1c; /* dark buttons */
+  --bg-3: #0a0a0a; /* spacing, secondary elements */
+  --bg-4: #0c0c0c; /* main background color */
+  --hover: #1414144d; /* buttons when hovered */
+  --active: #1f1f1f80; /* channels and buttons when clicked or selected */
+  --message-hover: #0a0a0a1a; /* messages when hovered */
+
+	/* amount of spacing and padding */
+	--spacing: 12px;
+
+	/* animations */
+	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+	/* corner roundness (border-radius) */
+	--roundness-xl: 5px; /* roundness of big panel outer corners */
+	--roundness-l: 5px; /* popout panels */
+	--roundness-m: 6px; /* smaller panels, images, embeds */
+	--roundness-s: 8px; /* members, settings inputs */
+	--roundness-xs: 10px; /* channels, buttons */
+	--roundness-xxs: 8px; /* searchbar, small elements */
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: block; /* moon icon */
+	--moon-icon-url: url('https://i.ibb.co/B24Bg9gW/a-Xshc-Z-J-400x400.png'); /* custom icon url */
+	--moon-icon-size: auto;
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--green-to-accent-3-filter: hue-rotate(97deg) saturate(1) brightness(1); /* add friend page explore icon */
+	--blurple-to-accent-3-filter: hue-rotate(-14deg) saturate(0.5) brightness(1.3); /* add friend page school icon */
+
+	/* nav buttons */
+	--windows-nav: none;
+	--custom-nav: block;
+}
+
+.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_dcc7a4)) {
+	background-image: var(--moon-icon-url);
+	background-color: transparent !important;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Window Action Buttons (top right) */
+
+[class^='winButtonMinMax']:nth-child(4)::after {
+	background-color: #f7d882 !important;
+}
+
+[class^='winButtonMinMax']:nth-child(3)::after {
+	background-color: #69eca0 !important;
+}
+
+[class^='winButtonClose']::after {
+	background-color: #f87070 !important;
+}
