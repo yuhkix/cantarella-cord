@@ -74,7 +74,13 @@
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
+	--moon-icon: none;
+
+	/* Alternative Icons
+		https://i.ibb.co/xPbJbbM/Cantarella-2.jpg
+		https://i.ibb.co/bhYpnX3/Cantarella.jpg
+		https://i.ibb.co/B24Bg9gW/a-Xshc-Z-J-400x400.png (current)
+	*/
 	--moon-icon-url: url('https://i.ibb.co/B24Bg9gW/a-Xshc-Z-J-400x400.png'); /* custom icon url */
 	--moon-icon-size: auto;
 
