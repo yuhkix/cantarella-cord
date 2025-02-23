@@ -1,5 +1,6 @@
-# Cantarella [<img src="./assets/cantarella.png" width="48" align="left" alt="Cantarella">](https://github.com/yuhkix/discord-themes) 
-credits go to [refact0r](https://github.com/refact0r/midnight-discord) for providing the base theme
+# Cantarella [<img src="./assets/cantarella.png" width="48" align="left" alt="Cantarella">](https://github.com/yuhkix/discord-themes)
+> credits go to [refact0r](https://github.com/refact0r/midnight-discord) for providing the base theme
+>> please feel free to open a pull request with your own variant (preferrably including a preview placed inside /previews folder)
 
 ## a darkened discord theme with rounded chat and sidebars.
 
