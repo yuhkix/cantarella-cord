@@ -1,72 +1,66 @@
 /**
- * @name Cantarella Dark
- * @description A theme based on 'Cantarella' from WuWa and the midnight-discord theme.
- * @author .yuhkix, refact0r
+ * @name Sparkle
+ * @description A theme based on 'Sparkle' from HSR and the midnight-discord theme.
+ * @author Yumeo, .yuhkix, refact0r
  * @version 1.0.0
- * @authorId 1323606732529991720
+ * @authorId 388348205714374656
  * @website https://github.com/refact0r/midnight-discord
- * @source https://github.com/refact0r/midnight-discord/blob/master/flavors/midnight-amaryllis.theme.css
+ * @source https://github.com/refact0r/midnight-discord/blob/master/flavors/midnight-catppuccin-mocha.theme.css
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url("https://refact0r.github.io/midnight-discord/midnight.css");
-@import url("https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap");
 
 /* customize things here */
 :root {
   /* font, change to 'gg sans' for default discord font*/
-  --font: "Chillax";
+  --font: "Montserrat";
 
   /* top left corner text */
-  --corner-text: "Cantarella";
+  --corner-text: "Sparkle";
 
   /* color of status indicators and window controls */
-  --online-indicator: #caa6f7; /* change to #23a55a for default green */
-  --dnd-indicator: #ff6c6c; /* change to #f23f43 for default red */
-  --idle-indicator: #ffc671; /* change to #f0b232 for default yellow */
-  --streaming-indicator: #896cff; /* change to #593695 for default purple */
+  --online-indicator: #94e3ac; /* change to #23a55a for default green */
+  --dnd-indicator: #ff5b78; /* change to #f23f43 for default red */
+  --idle-indicator: #ffb870; /* change to #f0b232 for default yellow */
+  --streaming-indicator: #8c6cff; /* change to #593695 for default purple */
 
   /* accent colors */
-  --accent-1: rgb(202, 166, 247); /* links */
-  --accent-2: rgba(
-    202,
-    166,
-    247,
-    0.851
-  ); /* general unread/mention elements (slightly faded) */
-  --accent-3: rgba(202, 166, 247, 0.749); /* accent buttons (more faded) */
-  --accent-4: rgba(
-    202,
-    166,
-    247,
-    0.6
-  ); /* accent buttons when hovered (darker but still recognizable) */
-  --accent-5: rgba(
-    202,
-    166,
-    247,
-    0.45
-  ); /* accent buttons when clicked (dimmed) */
-  --mention: #4747471a; /* mentions & mention messages */
-  --mention-hover: #4f4f4f0d; /* mentions & mention messages when hovered */
+  --accent-1: #e36a93; /* links */
+  --accent-2: #d6537f; /* general unread/mention elements */
+  --accent-3: #c54172; /* accent buttons */
+  --accent-4: #b03567; /* accent buttons when hovered */
+  --accent-5: #972b58; /* accent buttons when clicked */
+  --mention: rgba(176, 129, 233, 0.1); /* mentions & mention messages */
+  --mention-hover: rgba(
+    176,
+    129,
+    233,
+    0.05
+  ); /* mentions & mention messages when hovered */
 
   /* text colors */
-  --text-0: #111111; /* text on colored elements */
-  --text-1: #eceff4; /* other normally white text */
-  --text-2: #e5e9f0; /* headings and important text */
-  --text-3: #eceff4; /* normal text */
-  --text-4: #8c8c8c; /* icon buttons and channels */
-  --text-5: #a4a4a4; /* muted channels/chats and timestamps */
+  --text-0: #f0ecf7; /* text on colored elements */
+  --text-1: #f0ecf7; /* bright text on colored elements */
+  --text-2: #e0d4f4; /* headings and important text */
+  --text-3: #c2b3da; /* normal text */
+  --text-4: #8f83b2; /* icon buttons and channels */
+  --text-5: #6a6487; /* muted channels/chats and timestamps */
 
   /* background and dark colors */
-  --bg-1: #232323; /* dark buttons when clicked */
-  --bg-2: #1d1c1c; /* dark buttons */
-  --bg-3: #0a0a0a; /* spacing, secondary elements */
-  --bg-4: #0c0c0c; /* main background color */
-  --hover: #1414144d; /* buttons when hovered */
-  --active: #1f1f1f80; /* channels and buttons when clicked or selected */
-  --message-hover: #0a0a0a1a; /* messages when hovered */
+  --bg-1: #6e2345; /* dark buttons when clicked */
+  --bg-2: #581b3a; /* dark buttons */
+  --bg-3: #3b1326; /* spacing, secondary elements */
+  --bg-4: #2a0e1b; /* main background color */
+  --hover: rgba(114, 116, 157, 0.1); /* channels and buttons when hovered */
+  --active: rgba(
+    117,
+    120,
+    153,
+    0.2
+  ); /* channels and buttons when clicked or selected */
+  --message-hover: rgba(0, 0, 0, 0.1); /* messages when hovered */
 
   /* amount of spacing and padding */
   --spacing: 12px;
@@ -89,14 +83,8 @@
   /* direct messages moon icon */
   /* change to block to show, none to hide */
   --discord-icon: none; /* discord icon */
-  --moon-icon: none;
-
-  /* Alternative Icons
-		https://i.ibb.co/xPbJbbM/Cantarella-2.jpg
-		https://i.ibb.co/bhYpnX3/Cantarella.jpg
-		https://i.ibb.co/B24Bg9gW/a-Xshc-Z-J-400x400.png (current)
-	*/
-  --moon-icon-url: url("https://i.ibb.co/B24Bg9gW/a-Xshc-Z-J-400x400.png"); /* custom icon url */
+  --moon-icon: none; /* moon icon */
+  --moon-icon-url: url("https://nextcloud.yumeo.dev/s/T5gTLzMiD6Rf3Mz/preview"); /* custom icon url */
   --moon-icon-size: auto;
 
   /* filter uncolorable elements to fit theme */
@@ -129,4 +117,8 @@
 
 [class^="winButtonClose"]::after {
   background-color: #f87070 !important;
+}
+
+.result__2dc39:hover:after {
+  background: none;
 }

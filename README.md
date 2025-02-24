@@ -1,18 +1,47 @@
-# Themes that are based on anime waifus and others 😇
+# Waifu-Cord Themes
 
-# Cantarella [<img src="./assets/cantarella.png" width="48" align="left" alt="Cantarella">](https://github.com/yuhkix/cantarella-cord)
-> credits go to [refact0r](https://github.com/refact0r/midnight-discord) for providing the base theme.
->> please feel free to open a pull request with your own variant. (preferrably including a preview placed inside /previews folder)
+A collection of Discord themes inspired by anime waifus and more! 😇
 
-### a darkened discord theme with rounded chat and sidebars.
+Feel free to open a pull request with your own variant (preferably including a preview placed inside the `/previews` folder).
 
-<img width=800 src="https://github.com/yuhkix/discord-themes/blob/main/previews/cantarella%20dark.png">
+---
 
-## variants
+## Themes
 
-### catppuccin (mocha mauve)
-<img width=800 src="https://github.com/yuhkix/discord-themes/blob/main/previews/cantarella%20purple.png">
+- [Cantarella](#cantarella)
+  - [Dark](#cantarella)
+  - [Catppuccin (Mocha Mauve)](#catppuccin-mocha-mauve)
+- [Sparkle](#sparkle)
+- [Calamity](#calamity)
 
-# Calamity [<img src="./assets/calamity.png" width="34" align="left" alt="Calamity">](https://github.com/yuhkix/cantarella-cord)
-> old theme that was based on a project i used to work on, which i made using midnight.
-<img width=800 src="https://github.com/yuhkix/discord-themes/blob/main/previews/calamity.png">
+---
+
+## Cantarella [<img src="./assets/cantarella.png" height="35" align="left"  alt="Cantarella">](https://github.com/yuhkix/waifu-cord)
+
+> Credits: [refact0r](https://github.com/refact0r) for providing the [base theme](https://github.com/refact0r/midnight-discord).
+
+A darkened Discord theme with rounded chat and sidebars.
+
+<img width=800 src="./previews/cantarella dark.png">
+
+### Variants
+
+#### Catppuccin (Mocha Mauve)
+
+<img width=800 src="./previews/cantarella purple.png">
+
+---
+
+## Sparkle [<img src="./assets/sparkle.png" height="35" align="left"  alt="Sparkle">](https://github.com/yuhkix/waifu-cord)
+
+> Credits: [refact0r](https://github.com/refact0r) for providing the [base theme](https://github.com/refact0r/midnight-discord).
+
+<img width=800 src="./previews/sparkle.png">
+
+---
+
+## Calamity [<img src="./assets/calamity.png" height="35" align="left" alt="Calamity">](https://github.com/yuhkix/waifu-cord)
+
+Old theme that was based on a project i used to work on, which i made using midnight.
+
+<img width=800 src="./previews/calamity.png">
