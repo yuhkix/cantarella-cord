@@ -2,7 +2,7 @@
 
 A collection of Discord themes inspired by anime waifus and more! 😇
 
-Feel free to open a pull request with your own variant (preferably including a preview placed inside the `/previews` folder).
+Feel free to open a pull request with your own variant (including a preview placed inside the `/previews` folder).
 
 ---
 
